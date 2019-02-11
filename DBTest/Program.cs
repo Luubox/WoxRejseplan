@@ -14,7 +14,7 @@ namespace DBTest
         static void Main(string[] args)
         {
             string connectionString = 
-                @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\lord_\Desktop\Projects\2Semester\SWC\WoxRejseplan\WoxRejseplan\WoxDB;Extended Properties=dBase IV";
+                @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\lord_\Desktop\Projects\2Semester\SWC\WoxRejseplan\WoxRejseplan\WoxDB.accdb";
             string sqlString = "SELECT * FROM RejseplanenStoppesteder";
 
             using (OleDbConnection connection =
@@ -30,7 +30,6 @@ namespace DBTest
                     {
                         while (rdr.Read())
                         {
-                           // ObservableCollection<Stoppested> listWhatever = new ObservableCollection<Stoppested>();
                             Console.WriteLine(rdr.GetValue(0));
                             Console.WriteLine(rdr.GetValue(1));
                             
