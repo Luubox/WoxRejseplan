@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoxRejseplan", "WoxRejseplan\WoxRejseplan.csproj", "{12E511DA-83D6-4953-8079-F067B813399D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTest", "DBTest\DBTest.csproj", "{66A51009-CD39-46E8-96A1-07DE170FC807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{12E511DA-83D6-4953-8079-F067B813399D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E511DA-83D6-4953-8079-F067B813399D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E511DA-83D6-4953-8079-F067B813399D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A51009-CD39-46E8-96A1-07DE170FC807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A51009-CD39-46E8-96A1-07DE170FC807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A51009-CD39-46E8-96A1-07DE170FC807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A51009-CD39-46E8-96A1-07DE170FC807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

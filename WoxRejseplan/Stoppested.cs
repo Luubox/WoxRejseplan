@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace WoxRejseplan
 {
-    class Stoppested
+    public class Stoppested
     {
-        private int _stoppestedId;
-        private string _stoppestedName;
-        private int _stoppestedCoordX;
-        private int _stoppestedCoordY;
+        private int _stopId;
+        private string _stopName;
+        private int _stopCoordX;
+        private int _stopCoordY;
 
-        public int StoppestedId { get => _stoppestedId; set => _stoppestedId = value; }
-        public string StoppestedName { get => _stoppestedName; set => _stoppestedName = value; }
-        public int StoppestedCoordX { get => _stoppestedCoordX; set => _stoppestedCoordX = value; }
-        public int StoppestedCoordY { get => _stoppestedCoordY; set => _stoppestedCoordY = value; }
+        public int StopId { get => _stopId; set => _stopId = value; }
+        public string StopName { get => _stopName; set => _stopName = value; }
+        public int StopCoordX { get => _stopCoordX; set => _stopCoordX = value; }
+        public int StopCoordY { get => _stopCoordY; set => _stopCoordY = value; }
 
-        public Stoppested(int stoppestedId, string stoppestedName, int stoppestedCoordX, int stoppestedCoordY)
+        public Stoppested(int stopId, string stopName, int stopCoordX, int stopCoordY)
         {
-            _stoppestedId = stoppestedId;
-            _stoppestedName = stoppestedName;
-            _stoppestedCoordX = stoppestedCoordX;
-            _stoppestedCoordY = stoppestedCoordY;
+            _stopId = stopId;
+            _stopName = stopName;
+            _stopCoordX = stopCoordX;
+            _stopCoordY = stopCoordY;
         }
     }
 }
